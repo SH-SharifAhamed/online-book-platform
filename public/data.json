@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "description": "A gripping story of racial injustice in the American South, told through the eyes of a young girl.",
+    "category": "Story",
+    "available_quantity": 15,
+    "image_url": "https://example.com/books/to-kill-mockingbird.jpg"
+  },
+  {
+    "id": 2,
+    "title": "1984",
+    "author": "George Orwell",
+    "description": "A dystopian tale of surveillance, totalitarianism, and rebellion in a world controlled by Big Brother.",
+    "category": "Story",
+    "available_quantity": 8,
+    "image_url": "https://example.com/books/1984.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "description": "Bilbo Baggins embarks on an epic adventure with dwarves and a wizard to reclaim a lost treasure.",
+    "category": "Story",
+    "available_quantity": 22,
+    "image_url": "https://example.com/books/hobbit.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "description": "Essential principles for writing readable, maintainable, and efficient software code.",
+    "category": "Tech",
+    "available_quantity": 12,
+    "image_url": "https://example.com/books/clean-code.jpg"
+  },
+  {
+    "id": 5,
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt, David Thomas",
+    "description": "Practical advice for software developers to improve skills and deliver better projects.",
+    "category": "Tech",
+    "available_quantity": 18,
+    "image_url": "https://example.com/books/pragmatic-programmer.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "description": "A deep dive into building reliable, scalable, and maintainable data systems.",
+    "category": "Tech",
+    "available_quantity": 9,
+    "image_url": "https://example.com/books/data-intensive.jpg"
+  },
+  {
+    "id": 7,
+    "title": "A Brief History of Time",
+    "author": "Stephen Hawking",
+    "description": "Explores black holes, the Big Bang, and the mysteries of the universe in accessible terms.",
+    "category": "Science",
+    "available_quantity": 25,
+    "image_url": "https://example.com/books/brief-history-time.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Sapiens: A Brief History of Humankind",
+    "author": "Yuval Noah Harari",
+    "description": "Traces the story of humanity from the Stone Age to the modern era through key revolutions.",
+    "category": "Science",
+    "available_quantity": 14,
+    "image_url": "https://example.com/books/sapiens.jpg"
+  },
+  {
+    "id": 9,
+    "title": "The Immortal Life of Henrietta Lacks",
+    "author": "Rebecca Skloot",
+    "description": "The true story of HeLa cells and their impact on medicine, raising ethical questions.",
+    "category": "Science",
+    "available_quantity": 11,
+    "image_url": "https://example.com/books/henrietta-lacks.jpg"
+  },
+  {
+    "id": 10,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "description": "A shepherd follows his dreams across deserts in search of treasure and self-discovery.",
+    "category": "Story",
+    "available_quantity": 20,
+    "image_url": "https://example.com/books/alchemist.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "description": "Hands-on introduction to Python programming, data visualization, and web development.",
+    "category": "Tech",
+    "available_quantity": 16,
+    "image_url": "https://example.com/books/python-crash.jpg"
+  },
+  {
+    "id": 12,
+    "title": "The Elegant Universe",
+    "author": "Brian Greene",
+    "description": "Unlocks the secrets of string theory, relativity, and the quest for a unified theory of physics.",
+    "category": "Science",
+    "available_quantity": 7,
+    "image_url": "https://example.com/books/elegant-universe.jpg"
+  }
+]
