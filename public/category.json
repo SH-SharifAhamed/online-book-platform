@@ -1,62 +1,62 @@
 [
   {
     "id": 1,
-    "name": "Sci-Fi",
-    "slug": "scifi"
+    "name": "Story",
+    "slug": "story"
   },
   {
     "id": 2,
-    "name": "Pixel Art",
-    "slug": "pixel-art"
+    "name": "Story",
+    "slug": "story"
   },
   {
     "id": 3,
-    "name": "Fantasy",
-    "slug": "fantasy"
+    "name": "Story",
+    "slug": "story"
   },
   {
     "id": 4,
-    "name": "Cyberpunk",
-    "slug": "cyberpunk"
+    "name": "Tech",
+    "slug": "tech"
   },
   {
     "id": 5,
-    "name": "Surreal",
-    "slug": "surreal"
+    "name": "Tech",
+    "slug": "tech"
   },
   {
     "id": 6,
-    "name": "Vaporwave",
-    "slug": "vaporwave"
+    "name": "Tech",
+    "slug": "tech"
   },
   {
     "id": 7,
-    "name": "Realistic",
-    "slug": "realistic"
+    "name": "Science",
+    "slug": "science"
   },
   {
     "id": 8,
-    "name": "Minimal",
-    "slug": "minimal"
+    "name": "Science",
+    "slug": "science"
   },
   {
     "id": 9,
-    "name": "Steampunk",
-    "slug": "steampunk"
+    "name": "Science",
+    "slug": "science"
   },
   {
     "id": 10,
-    "name": "Steampunk",
-    "slug": "steampunk"
+    "name": "Story",
+    "slug": "story"
   },
   {
     "id": 11,
-    "name": "Steampunk",
-    "slug": "steampunk"
+    "name": "Tech",
+    "slug": "tech"
   },
   {
     "id": 12,
-    "name": "Steampunk",
-    "slug": "steampunk"
+    "name": "Science",
+    "slug": "science"
   }
 ]
