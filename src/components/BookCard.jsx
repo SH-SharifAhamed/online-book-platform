@@ -7,10 +7,9 @@ import { FcRating } from "react-icons/fc";
 import { CiEdit } from "react-icons/ci";
 import { HiArrowCircleRight } from "react-icons/hi";
 import { HiCurrencyBangladeshi } from "react-icons/hi";
-
+import Link from "next/link";
 
 const BookCard = ({ book }) => {
-
   return (
     <Card
       className="w-full overflow-hidden border rounded-xl shadow-lg 
@@ -59,18 +58,21 @@ const BookCard = ({ book }) => {
         </div>
 
         <div className="flex items-center justify-center">
-          <Button
-            href={`/book/${book.id}`}
-            className="mt-4 flex items-center gap-2 w-sm 
+          <Link href={`/all-book/${book.id}`}>
+            <Button
+              className="mt-4 flex items-center gap-2 w-62 
                bg-linear-to-r from-blue-500 to-purple-600 
-               text-white font-medium
+               text-white font-medium px-4 py-2
                hover:from-purple-600 hover:to-blue-500
                transition-all duration-300"
-          >
-            View Details <HiArrowCircleRight />
-          </Button>
+            >
+              View Details <HiArrowCircleRight />
+            </Button>
+          </Link>
         </div>
       </div>
+
+      
     </Card>
   );
 };
