@@ -7,10 +7,9 @@ import { FcRating } from "react-icons/fc";
 import { CiEdit } from "react-icons/ci";
 import { HiArrowCircleRight } from "react-icons/hi";
 import { HiCurrencyBangladeshi } from "react-icons/hi";
-// import { IoMdStar } from "react-icons/io";
+
 
 const BookCard = ({ book }) => {
-  console.log(book);
 
   return (
     <Card
@@ -36,38 +35,29 @@ const BookCard = ({ book }) => {
           {" "}
           <CiEdit className="text-blue-700 font-bold text-2xl" /> {book.author}
         </p>
-        {/* <p className="text-gray-700">{book.description}</p> */}
-        <div className="relative flex items-center justify-evenly mt-2">
-          <Chip className="flex items-center gap-2 text-sm text-gray-500">
-            <MdOutlineCategory className="text-red-700 text-2xl" /> Category:{" "}
-            {book.category}
+
+        <div className="flex flex-wrap items-center justify-center sm:justify-between gap-3 mt-3">
+          <Chip className="flex items-center gap-2 text-sm text-gray-600">
+            <MdOutlineCategory className="text-red-600 text-lg sm:text-xl" />{" "}
+            Category: {book.category}
           </Chip>
-          <span className="flex items-center gap-2 text-sm text-gray-500 ml-4">
+          <span className="flex items-center gap-2 text-xs sm:text-sm text-gray-600 font-semibold">
             {" "}
-            <HiBookOpen className="text-green-600 text-2xl" /> Available:{" "}
-            {book.available_quantity}
+            <HiBookOpen className="text-green-600 text-lg sm:text-xl" />{" "}
+            Available: {book.available_quantity}
           </span>
-          {/* <span className="flex items-center gap-2 text-sm text-gray-500 ml-4">
-            {" "}
-            <HiCurrencyBangladeshi className="text-green-600 text-2xl" /> Price:{" "}
-            {book.price}
-          </span> */}
-          <Chip className="text-sm font-bold">
-            <HiCurrencyBangladeshi /> price: {book.price}
+
+          <Chip className="flex items-center gap-1 text-xs sm:text-sm font-semibold bg-gray-100 px-2 py-1 rounded-md">
+            <HiCurrencyBangladeshi className="text-base text-green-500 sm:text-lg" />{" "}
+            price: {book.price}
           </Chip>
+          <span className="flex items-center gap-2 text-xs sm:text-sm text-gray-600">
+            <FcRating className="text-lg sm:text-xl" />{" "}
+            <span className="font-medium">Rating:</span>
+            <span className="font-semibold">{book.rating ?? "N/A"}</span>
+          </span>
         </div>
 
-        <div className="flex items-center justify-evenly mt-2">
-          <span className="flex items-center gap-2 text-sm text-gray-500">
-            <FcRating className="text-yellow-500 text-2xl" /> Rating:{" "}
-            {book.rating}
-          </span>
-          {/* <span className="flex items-center gap-2 text-sm text-gray-500 ml-4">
-            {" "}
-            <IoMdStar className="text-green-600 text-2xl" /> Reviews:{" "}
-            {book.reviews}
-          </span> */}
-        </div>
         <div className="flex items-center justify-center">
           <Button
             href={`/book/${book.id}`}
