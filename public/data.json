@@ -6,6 +6,9 @@
     "description": "The first book in the Harry Potter series, following a young boy who discovers he is a wizard and attends Hogwarts School of Witchcraft and Wizardry.",
     "category": "Story",
     "available_quantity": 15,
+    "price": 450,
+    "rating": 4.8,
+    "reviews": 120,
     "image_url": "/Card/Harry-Potter.jpg"
   },
   {
@@ -15,6 +18,9 @@
     "description": "A motivational book that focuses on principles of success, mindset, and wealth creation based on interviews with successful people.",
     "category": "Story",
     "available_quantity": 8,
+    "price": 350,
+    "rating": 4.6,
+    "reviews": 95,
     "image_url": "/Card/Grow Rich.jpg"
   },
   {
@@ -24,6 +30,9 @@
     "description": "Bilbo Baggins embarks on an epic adventure with dwarves and a wizard to reclaim a lost treasure.",
     "category": "Story",
     "available_quantity": 22,
+    "price": 400,
+    "rating": 4.7,
+    "reviews": 110,
     "image_url": "/Card/The Hobbit.jpg"
   },
   {
@@ -33,6 +42,9 @@
     "description": "Essential principles for writing readable, maintainable, and efficient software code.",
     "category": "Tech",
     "available_quantity": 12,
+    "price": 550,
+    "rating": 4.9,
+    "reviews": 150,
     "image_url": "/Card/Clean Code.jpg"
   },
   {
@@ -42,6 +54,9 @@
     "description": "Practical advice for software developers to improve skills and deliver better projects.",
     "category": "Tech",
     "available_quantity": 18,
+    "price": 600,
+    "rating": 4.8,
+    "reviews": 130,
     "image_url": "/Card/The Pragmatic Programmer.jpg"
   },
   {
@@ -51,6 +66,9 @@
     "description": "A deep dive into building reliable, scalable, and maintainable data systems.",
     "category": "Tech",
     "available_quantity": 9,
+    "price": 500,
+    "rating": 4.5,
+    "reviews": 70,
     "image_url": "/Card/The Inevitable.jpg"
   },
   {
@@ -60,6 +78,9 @@
     "description": "Explores black holes, the Big Bang, and the mysteries of the universe in accessible terms.",
     "category": "Science",
     "available_quantity": 25,
+    "price": 480,
+    "rating": 4.7,
+    "reviews": 140,
     "image_url": "/Card/A Brief History of Time.jpg"
   },
   {
@@ -69,6 +90,9 @@
     "description": "Traces the story of humanity from the Stone Age to the modern era through key revolutions.",
     "category": "Science",
     "available_quantity": 14,
+    "price": 520,
+    "rating": 4.8,
+    "reviews": 160,
     "image_url": "/Card/Sapiens.jpg"
   },
   {
@@ -78,6 +102,9 @@
     "description": "The true story of HeLa cells and their impact on medicine, raising ethical questions.",
     "category": "Science",
     "available_quantity": 11,
+    "price": 420,
+    "rating": 4.6,
+    "reviews": 85,
     "image_url": "/Card/The Immortal.jpg"
   },
   {
@@ -87,6 +114,9 @@
     "description": "A shepherd follows his dreams across deserts in search of treasure and self-discovery.",
     "category": "Story",
     "available_quantity": 20,
+    "price": 300,
+    "rating": 4.7,
+    "reviews": 170,
     "image_url": "/Card/The Alchemist.jpg"
   },
   {
@@ -96,6 +126,9 @@
     "description": "The biography of Steve Jobs, co-founder and former CEO of Apple Inc.",
     "category": "Tech",
     "available_quantity": 16,
+    "price": 550,
+    "rating": 4.8,
+    "reviews": 145,
     "image_url": "/Card/Steve Jobs.jpg"
   },
   {
@@ -105,6 +138,9 @@
     "description": "Unlocks the secrets of string theory, relativity, and the quest for a unified theory of physics.",
     "category": "Science",
     "available_quantity": 7,
+    "price": 530,
+    "rating": 4.6,
+    "reviews": 75,
     "image_url": "/Card/The Elegant Universe.jpg"
   }
 ]
